@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<query>
+    <select1>
+        select * from usr_std_mst
+
+    </select1>
+</query>
+

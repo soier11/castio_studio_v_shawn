@@ -1,0 +1,42 @@
+{
+  "name": "taebaek_homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prev_start": "babel src/ -d build/ && nodemon build/index.js",
+    "start": "node ./scripts/dev.js",
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0",
+    "graphql-custom-types": "^1.5.0",
+    "graphql-tools": "^4.0.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.5.9",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-dir": "^0.1.17",
+    "nodemon": "^1.19.1",
+    "xml-digester": "^0.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "graphql-tester": "^0.0.5",
+    "nock": "^10.0.6",
+    "jest": "^24.8.0",
+    "superagent": "^5.0.5",
+    "supertest": "^4.0.2"
+  }
+}
