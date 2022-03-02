@@ -1,0 +1,2 @@
+(this.webpackJsonpstudio_v2=this.webpackJsonpstudio_v2||[]).push([[26],{552:function(t,e,s){"use strict";s.r(e);var n=s(4),o=s.n(n),a=s(76);class r extends n.Component{render(){return o.a.createElement(a.a,{to:"/studio"})}}e.default=r}}]);
+//# sourceMappingURL=views.f1216e41.chunk.js.map
