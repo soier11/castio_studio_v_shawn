@@ -28,6 +28,7 @@ module.exports = {
 
   /* 03.Menu */
   'menu.app': 'Home',
+  "menu.default": "Default",
   'menu.dashboards': 'Dashboards',
   'menu.gogo': 'Gogo',
   'menu.start': 'Start',
@@ -48,6 +49,10 @@ module.exports = {
   'menu.member': 'Member',
   'menu.group': 'Group',
   'menu.:class_class_id': 'Class Details',
+  "menu.applications": "Applications",
+  "menu.analytics": "Analytics",
+  "menu.ecommerce": "Ecommerce",
+  "menu.content": "Content",
 
   /* 04.Error Page */
   'pages.error-title': 'Ooops... looks like an error occurred!',
@@ -75,4 +80,52 @@ module.exports = {
 
   /* Channel */
   "pages.tags": "Tags",
+
+  /* 06.Applications */
+
+  /* 06.01.Chat */
+  "chat.messages": "Messages",
+  "chat.contacts": "Contacts",
+  "chat.saysomething": "Say something..",
+
+
+  /* 06.02.Survey */
+  "survey.delete": "Delete",
+  "survey.edit": "Edit",
+  "survey.add-new": "ADD NEW",
+  "survey.add-new-title": "Add New Survey",
+  "survey.title": "Title",
+  "survey.category": "Category",
+  "survey.label": "Label",
+  "survey.status": "Status",
+  "survey.cancel": "Cancel",
+  "survey.submit": "Submit",
+  "survey.another-action": "Another action",
+  "survey.display-options": "Display Options",
+  "survey.orderby": "Order By : ",
+  "survey.all-surveys": "All Surveys",
+  "survey.completed-surveys": "Completed Surveys",
+  "survey.categories": "Categories",
+  "survey.active-surveys": "Active Surveys",
+  "survey.labels": "Labels",
+
+  /* 06.03.Todo */
+  "todo.add-new": "ADD NEW",
+  "todo.add-new-title": "Add New Todo",
+  "todo.title": "Title",
+  "todo.detail": "Detail",
+  "todo.category": "Category",
+  "todo.label": "Label",
+  "todo.status": "Status",
+  "todo.cancel": "Cancel",
+  "todo.submit": "Submit",
+  "todo.action": "Action",
+  "todo.another-action": "Another action",
+  "todo.display-options": "Display Options",
+  "todo.orderby": "Order By : ",
+  "todo.all-tasks": "All Tasks",
+  "todo.pending-tasks": "Pending Tasks",
+  "todo.completed-tasks": "Completed Tasks",
+  "todo.categories": "Categories",
+  "todo.labels": "Labels",
 };

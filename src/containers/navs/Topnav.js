@@ -270,7 +270,7 @@ class TopNav extends Component {
 
           <div className="header-icons d-inline-block align-middle">
 
-            {/* <TopnavEasyAccess /> */}
+            <TopnavEasyAccess />
             <TopnavNotifications />
             <button
               className="header-icon btn btn-empty d-none d-sm-inline-block"
@@ -281,8 +281,8 @@ class TopNav extends Component {
               {this.state.isInFullScreen ? (
                 <i className="simple-icon-size-actual d-block" />
               ) : (
-                  <i className="simple-icon-size-fullscreen d-block" />
-                )}
+                <i className="simple-icon-size-fullscreen d-block" />
+              )}
             </button>
           </div>
           <div className="user d-inline-block">

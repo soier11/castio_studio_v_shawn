@@ -4,6 +4,9 @@ import { connect } from 'react-redux';
 
 import AppLayout from '../../layout/AppLayout';
 
+const Applications = React.lazy(() =>
+  import(/* webpackChunkName: "viwes-gogo" */ './applications')
+);
 const Gogo = React.lazy(() =>
   import(/* webpackChunkName: "viwes-gogo" */ './gogo')
 );
@@ -23,7 +26,11 @@ class App extends Component {
         <div className="dashboard-wrapper">
           <Suspense fallback={<div className="loading" />}>
             <Switch>
-              <Redirect exact from={`${match.url}/`} to={`${match.url}/gogo`} />
+              <Redirect exact from={`${match.url}/`} to={`${match.url}/applications`} />
+              <Route
+                path={`${match.url}/applications`}
+                render={props => <Applications {...props} />}
+              />
               <Route
                 path={`${match.url}/gogo`}
                 render={props => <Gogo {...props} />}

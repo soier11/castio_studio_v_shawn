@@ -5,25 +5,25 @@ const data = [
     label: "menu.dashboards",
     to: "/studio/dashboards",
     subs: [{
-        icon: "simple-icon-briefcase",
-        label: "menu.default",
-        to: "/studio/dashboards/default"
-      },
-      {
-        icon: "simple-icon-pie-chart",
-        label: "menu.analytics",
-        to: "/studio/dashboards/analytics"
-      },
-      {
-        icon: "simple-icon-basket-loaded",
-        label: "menu.ecommerce",
-        to: "/studio/dashboards/ecommerce"
-      },
-      {
-        icon: "simple-icon-doc",
-        label: "menu.content",
-        to: "/studio/dashboards/content"
-      }
+      icon: "simple-icon-briefcase",
+      label: "menu.default",
+      to: "/studio/dashboards/default"
+    },
+    {
+      icon: "simple-icon-pie-chart",
+      label: "menu.analytics",
+      to: "/studio/dashboards/analytics"
+    },
+    {
+      icon: "simple-icon-basket-loaded",
+      label: "menu.ecommerce",
+      to: "/studio/dashboards/ecommerce"
+    },
+    {
+      icon: "simple-icon-doc",
+      label: "menu.content",
+      to: "/studio/dashboards/content"
+    }
     ]
   },
   {
@@ -51,10 +51,27 @@ const data = [
     to: "/app/blank-page"
   },
   {
-    id: "grouppage",
+    id: "surveys",
     icon: "simple-icon-organization",
     label: "menu.group",
     to: "/app/blank-page"
+  },
+  {
+    id: "survey",
+    icon: "iconsminds-shop-4",
+    label: "menu.survey",
+    to: "/app/applications",
+    subs: [{
+      icon: "simple-icon-briefcase",
+      label: "menu.chat",
+      to: "/app/applications/chat"
+    },
+    {
+      icon: "simple-icon-pie-chart",
+      label: "menu.survey",
+      to: "/app/applications/survey"
+    },
+    ]
   },
 ];
 export default data;
